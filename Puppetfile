@@ -59,3 +59,46 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+# Text editors
+github "mou",            "1.1.3"
+github "vim",            "1.0.5"
+github "zsh",            "1.0.0"
+github "osx",            "2.5.0"
+github "python",         "1.1.1"
+
+# Browsers
+github "chrome",         "1.1.2"
+
+# Media"
+github "transmission",   "1.1.0"
+github "vlc",            "1.0.5"
+github "rdio",           "1.0.0"
+
+# Communication
+github "skype",          "1.0.8"
+github "adium",          "1.3.0"
+github "hipchat",        "1.1.0"
+
+# Utilities
+github "onepassword",    "1.1.0"
+github "dropbox",        "1.2.0"
+github "fitbit",         "1.0.0"
+github "alfred2",        "0.0.1", :repo => "grahamgilbert/puppet-alfred2"
+github "flux",           "1.0.1"
+github "arq",            "1.0.0"
+
+github "github_for_mac", "1.0.1"
+github "arduino",        "1.0.1", :repo => "ngs/puppet-arduino"
+
+# Stores
+github "postgresapp",     "1.0.0"
+
+# Terminal stuff
+github "iterm2",         "1.0.7"
+github "zsh",            "1.0.0"
+github "autojump",       "1.0.0"
+github "wget",           "1.0.1"
+github "xquartz",        "1.1.1"
+
+github "mplayerx",       "1.0.2"

@@ -1,9 +1,0 @@
----
-# See https://github.com/boxen/puppet-ruby for docs
-"ruby::build::ensure": 'v20140517'
-"ruby::global::version": "2.1.2"
-"ruby::version::alias":
-  "2.0.0": "2.0.0-p481"
-    
-# See https://github.com/boxen/puppet-java for docs
-"java::update_version": "51"

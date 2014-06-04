@@ -6,7 +6,9 @@ class people::ys::homebrew {
   package {
     [
       'ctags',
+      'gist',
       'jq',
+      'mercurial',
       'readline',
       'the_silver_searcher',
       'vim',

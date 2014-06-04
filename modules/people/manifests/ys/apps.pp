@@ -38,4 +38,10 @@ class people::ys::apps {
     require => Exec['download hk binary'],
   }
 
+  package { 'All the GIFs':
+    ensure   => installed,
+    source   => 'https://raw.github.com/orta/GIFs/master/web/GIFs.app.zip',
+    provider => compressed_app
+  }
+
 }

@@ -22,4 +22,20 @@ class people::ys::apps {
   include wget
   include xquartz
   include zsh
+
+  # heroku client
+  $hkurl = 'https://hkdist.s3.amazonaws.com/hk/20140514/darwin-amd64.gz'
+  $hkdest = "${boxen::config::bindir}/hk"
+ 
+  exec { 'download hk binary':
+    command => "/usr/bin/curl '${hkurl}' | zcat > '${hkdest}'",
+    creates => $hkdest,
+    require => File[$boxen::config::bindir],
+  }
+ 
+  file { $hkdest:
+    mode    => '0750',
+    require => Exec['download hk binary'],
+  }
+
 }

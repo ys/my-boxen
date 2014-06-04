@@ -79,6 +79,7 @@ github "rdio",           "1.0.0"
 github "skype",          "1.0.8"
 github "adium",          "1.3.0"
 github "hipchat",        "1.1.0"
+github "slack",          "1.0.5"
 
 # Utilities
 github "onepassword",    "1.1.0"

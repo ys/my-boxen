@@ -10,6 +10,7 @@ class people::ys::apps {
   include flux
   include github_for_mac
   include hipchat
+  include slack
   include mou
   include mplayerx
   include onepassword

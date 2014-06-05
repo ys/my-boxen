@@ -11,6 +11,7 @@ class people::ys::apps {
   include github_for_mac
   include hipchat
   include slack
+  include memcached
   include mou
   include mplayerx
   include onepassword

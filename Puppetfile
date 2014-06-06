@@ -85,7 +85,7 @@ github "slack",          "1.0.5"
 github "onepassword",    "1.1.0"
 github "dropbox",        "1.2.0"
 github "fitbit",         "1.0.0"
-github "alfred2",        "0.0.1", :repo => "grahamgilbert/puppet-alfred2"
+github "alfred",         "1.2.0"
 github "flux",           "1.0.1"
 github "arq",            "1.0.0"
 
@@ -97,7 +97,7 @@ github "postgresapp",     "1.0.0"
 github "memcached",       "2.0.0"
 
 # Terminal stuff
-github "iterm2",         "1.0.7"
+github "iterm2",         "1.1.1"
 github "zsh",            "1.0.0"
 github "autojump",       "1.0.0"
 github "wget",           "1.0.1"

@@ -2,7 +2,6 @@ class people::ys::apps {
 
   #all packages added to PuppetFile
   include alfred2
-  include arq
   include autojump
   include chrome::beta
   include dropbox
@@ -13,12 +12,10 @@ class people::ys::apps {
   include slack
   include memcached
   include mou
-  include mplayerx
   include onepassword
   include postgresapp
   include rdio
   include skype
-  include transmission
   include vlc
   include wget
   include xquartz

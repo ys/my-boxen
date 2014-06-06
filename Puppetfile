@@ -102,5 +102,6 @@ github "zsh",            "1.0.0"
 github "autojump",       "1.0.0"
 github "wget",           "1.0.1"
 github "xquartz",        "1.1.1"
+github "heroku",         "2.0.0"
 
 github "mplayerx",       "1.0.2"

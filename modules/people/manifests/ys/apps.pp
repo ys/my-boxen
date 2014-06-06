@@ -13,6 +13,7 @@ class people::ys::apps {
     provider => 'compressed_app'
   }
   include iterm2::dev
+  include heroku
   include hipchat
   include slack
   include memcached

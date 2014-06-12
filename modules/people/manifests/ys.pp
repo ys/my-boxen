@@ -1,4 +1,7 @@
 class people::ys {
+  Git::Config::Global <| title == "core.excludesfile" |> {
+      value => "~/.gitignore"
+  }
 
   include people::ys::osx
   include people::ys::apps

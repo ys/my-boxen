@@ -88,6 +88,7 @@ github "fitbit",         "1.0.0"
 github "alfred",         "1.2.0"
 github "flux",           "1.0.1"
 github "arq",            "1.0.0"
+github "cloudapp",       "1.0.0"
 
 github "github_for_mac", "1.0.1"
 github "arduino",        "1.0.1", :repo => "ngs/puppet-arduino"
